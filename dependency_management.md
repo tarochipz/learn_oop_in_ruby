@@ -1,4 +1,4 @@
-<h1>Dependency Injection</h1>
+<h4>Dependency Injection</h4>
 
 Referring to another class by name is bad, an immediate consequence is that if the name of the class changes, the object depending on that class must also change.
 A bigger problem is that it makes the object less flexible, only allowing the method to be used for instance of that specific class. 
@@ -38,3 +38,7 @@ class Gear
 # ...
 end
 ```
+
+<h4>Isolate Dependencies</h4>
+If dependencies cannot be removed, isolate them (i.e. put them into their own method and reveal them). 
+
